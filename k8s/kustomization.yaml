@@ -1,0 +1,8 @@
+resources:
+  - deployment.yaml
+  - service.yaml
+
+images:
+  - name: ticket-master
+    newName: munirfarhan/ticket-master
+    newTag: latest
